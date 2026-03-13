@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Elektrikerr – Professional electrical services including installations, repairs, smart home systems, EV charger installation and more. Trusted electricians serving your area."
+    />
+    <meta name="theme-color" content="#1b2a4a" />
+    <title>Elektrikerr | Professional Electrical Services</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ─────────────────────────────────────────────────────────
+         NAVIGATION
+    ──────────────────────────────────────────────────────────── -->
+    <header id="navbar" class="navbar" role="banner">
+      <div class="container navbar__inner">
+        <!-- Logo -->
+        <a href="#" class="navbar__logo" aria-label="Elektrikerr – home">
+          <div class="navbar__logo-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+          </div>
+          <span class="navbar__logo-name">Elektri<span>kerr</span></span>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button
+          id="hamburger"
+          class="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <nav id="nav-menu" class="nav-menu" role="navigation" aria-label="Main navigation">
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#why-us" class="nav-link">Why Us</a>
+          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#contact" class="btn btn--primary nav-cta">Get a Free Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- ───────────────────────────────────────────────────────
+           HERO
+      ──────────────────────────────────────────────────────────── -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero__bg-pattern" aria-hidden="true"></div>
+        <div class="hero__bg-glow" aria-hidden="true"></div>
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__badge" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+              Licensed &amp; Insured Electricians
+            </div>
+            <h1 id="hero-heading" class="hero__title">
+              Expert Electrical Services<br />
+              <span>You Can Rely On</span>
+            </h1>
+            <p class="hero__subtitle">
+              From residential wiring to commercial installations and smart home systems, Elektrikerr delivers safe, reliable, and efficient electrical solutions. Available 24/7 for emergencies.
+            </p>
+            <div class="hero__actions">
+              <a href="#contact" class="btn btn--primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.4 2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.09 6.09l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                Get a Free Quote
+              </a>
+              <a href="#services" class="btn btn--outline">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                View Our Services
+              </a>
+            </div>
+            <div class="hero__stats" role="list" aria-label="Key statistics">
+              <div class="hero__stat" role="listitem">
+                <span class="hero__stat-value" data-count="1500" data-suffix="+">0</span>
+                <span class="hero__stat-label">Projects Completed</span>
+              </div>
+              <div class="hero__stat" role="listitem">
+                <span class="hero__stat-value" data-count="15" data-suffix=" yrs">0</span>
+                <span class="hero__stat-label">Years Experience</span>
+              </div>
+              <div class="hero__stat" role="listitem">
+                <span class="hero__stat-value" data-count="98" data-suffix="%">0</span>
+                <span class="hero__stat-label">Client Satisfaction</span>
+              </div>
+              <div class="hero__stat" role="listitem">
+                <span class="hero__stat-value">24/7</span>
+                <span class="hero__stat-label">Emergency Service</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────
+           SERVICES
+      ──────────────────────────────────────────────────────────── -->
+      <section id="services" class="section" aria-labelledby="services-heading">
+        <div class="container">
+          <header class="section__header animate">
+            <p class="section__eyebrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+              What We Offer
+            </p>
+            <h2 id="services-heading" class="section__title">Our Electrical Services</h2>
+            <p class="section__subtitle">
+              Comprehensive electrical solutions for homes and businesses, delivered by qualified and certified professionals.
+            </p>
+          </header>
+
+          <div class="services__grid">
+            <!-- Service 1 -->
+            <article class="service-card animate animate--delay-1">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Electrical Installations</h3>
+              <p class="service-card__desc">
+                Full electrical installations for new builds and major renovations. We design and install safe, code-compliant systems tailored to your specifications.
+              </p>
+            </article>
+
+            <!-- Service 2 -->
+            <article class="service-card animate animate--delay-2">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3" /><path d="M19.07 4.93a10 10 0 0 1 0 14.14" /><path d="M4.93 4.93a10 10 0 0 0 0 14.14" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Fault Finding &amp; Repairs</h3>
+              <p class="service-card__desc">
+                Rapid diagnosis and repair of electrical faults, circuit failures, and wiring issues. Our team resolves problems efficiently and safely.
+              </p>
+            </article>
+
+            <!-- Service 3 -->
+            <article class="service-card animate animate--delay-3">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Smart Home Systems</h3>
+              <p class="service-card__desc">
+                Transform your home with integrated smart lighting, heating, security, and energy management systems for a modern, connected lifestyle.
+              </p>
+            </article>
+
+            <!-- Service 4 -->
+            <article class="service-card animate animate--delay-1">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="5" /><line x1="12" y1="1" x2="12" y2="3" /><line x1="12" y1="21" x2="12" y2="23" /><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" /><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" /><line x1="1" y1="12" x2="3" y2="12" /><line x1="21" y1="12" x2="23" y2="12" /><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" /><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Lighting Solutions</h3>
+              <p class="service-card__desc">
+                Interior and exterior lighting design and installation, including LED upgrades, decorative fixtures, security lighting, and landscape lighting.
+              </p>
+            </article>
+
+            <!-- Service 5 -->
+            <article class="service-card animate animate--delay-2">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13" rx="1" /><polygon points="16 8 20 8 23 11 23 16 16 16 16 8" /><circle cx="5.5" cy="18.5" r="2.5" /><circle cx="18.5" cy="18.5" r="2.5" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">EV Charger Installation</h3>
+              <p class="service-card__desc">
+                Certified home and commercial electric vehicle charger installation. We assess your supply, install the charger, and ensure full compliance.
+              </p>
+            </article>
+
+            <!-- Service 6 -->
+            <article class="service-card animate animate--delay-3">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3 class="service-card__title">Planned Maintenance</h3>
+              <p class="service-card__desc">
+                Routine electrical testing, EICR certificates, periodic inspections, and preventative maintenance contracts for homes and commercial properties.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────
+           ABOUT
+      ──────────────────────────────────────────────────────────── -->
+      <section id="about" class="section section--alt" aria-labelledby="about-heading">
+        <div class="container">
+          <div class="about__grid">
+            <!-- Image -->
+            <div class="about__image-wrapper animate">
+              <div class="about__image-placeholder" role="img" aria-label="Elektrikerr electrician at work">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+                <span style="font-size: 0.9rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">Elektrikerr</span>
+              </div>
+              <div class="about__image-badge" aria-label="15 years in business">
+                <span class="about__image-badge-value">15+</span>
+                <span class="about__image-badge-label">Years in Business</span>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="about__content animate animate--delay-2">
+              <header>
+                <p class="section__eyebrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg>
+                  About Elektrikerr
+                </p>
+                <h2 id="about-heading" class="section__title">Trusted Electrical Expertise Since 2009</h2>
+              </header>
+              <p class="about__body">
+                Elektrikerr was founded with a single mission: to provide honest, high-quality electrical services that clients can trust. Over 15 years, we have grown from a single-person operation into a team of fully qualified, NICEIC-registered electricians serving residential, commercial, and industrial clients.
+              </p>
+              <p class="about__body">
+                Every project we take on is completed to the highest standards of safety and workmanship. We take the time to understand your needs, explain our approach clearly, and deliver results that stand the test of time.
+              </p>
+              <ul class="about__list" aria-label="Company highlights">
+                <li class="about__list-item">
+                  <div class="about__list-icon" aria-hidden="true">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  NICEIC registered and fully insured for your peace of mind
+                </li>
+                <li class="about__list-item">
+                  <div class="about__list-icon" aria-hidden="true">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  All work certified and compliant with current wiring regulations
+                </li>
+                <li class="about__list-item">
+                  <div class="about__list-icon" aria-hidden="true">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  Transparent, competitive pricing with no hidden charges
+                </li>
+                <li class="about__list-item">
+                  <div class="about__list-icon" aria-hidden="true">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  24/7 emergency response for urgent electrical issues
+                </li>
+              </ul>
+              <div class="about__certifications" aria-label="Certifications and memberships">
+                <span class="cert-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  NICEIC Registered
+                </span>
+                <span class="cert-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  Part P Compliant
+                </span>
+                <span class="cert-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                  </svg>
+                  EV Charging Certified
+                </span>
+                <span class="cert-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Fully Insured
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────
+           WHY CHOOSE US
+      ──────────────────────────────────────────────────────────── -->
+      <section id="why-us" class="section" aria-labelledby="why-heading">
+        <div class="container">
+          <header class="section__header animate">
+            <p class="section__eyebrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              Our Advantages
+            </p>
+            <h2 id="why-heading" class="section__title">Why Clients Choose Elektrikerr</h2>
+            <p class="section__subtitle">
+              We combine technical expertise with outstanding customer service to deliver an experience that exceeds expectations every time.
+            </p>
+          </header>
+
+          <div class="why__grid">
+            <article class="why-card animate animate--delay-1">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Safety First, Always</h3>
+              <p class="why-card__desc">Every job is conducted following strict safety protocols. All work is tested, certified, and signed off to current IET Wiring Regulations.</p>
+            </article>
+
+            <article class="why-card animate animate--delay-2">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Punctual &amp; Reliable</h3>
+              <p class="why-card__desc">We respect your time. Our electricians arrive when promised, complete work on schedule, and keep you informed at every stage.</p>
+            </article>
+
+            <article class="why-card animate animate--delay-3">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Transparent Pricing</h3>
+              <p class="why-card__desc">No hidden costs or surprise invoices. We provide detailed, written quotes before any work begins so you know exactly what to expect.</p>
+            </article>
+
+            <article class="why-card animate animate--delay-1">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">24/7 Emergency Response</h3>
+              <p class="why-card__desc">Electrical emergencies can happen any time. Our rapid-response team is available around the clock, every day of the year.</p>
+            </article>
+
+            <article class="why-card animate animate--delay-2">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Experienced Team</h3>
+              <p class="why-card__desc">Our electricians bring an average of 10+ years of hands-on experience across residential, commercial, and industrial projects.</p>
+            </article>
+
+            <article class="why-card animate animate--delay-3">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.4 2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.09 6.09l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Dedicated Support</h3>
+              <p class="why-card__desc">Our customer care team is always on hand to answer questions, schedule appointments, and provide after-work support and guidance.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────
+           TESTIMONIALS
+      ──────────────────────────────────────────────────────────── -->
+      <section id="testimonials" class="section section--alt" aria-labelledby="testimonials-heading">
+        <div class="container">
+          <header class="section__header animate">
+            <p class="section__eyebrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+              Customer Reviews
+            </p>
+            <h2 id="testimonials-heading" class="section__title">What Our Clients Say</h2>
+            <p class="section__subtitle">
+              We are proud of the relationships we build with our clients. Here is what some of them have to say about working with Elektrikerr.
+            </p>
+          </header>
+
+          <div class="testimonials__grid">
+            <article class="testimonial-card animate animate--delay-1">
+              <div class="testimonial-card__stars" aria-label="5 star rating">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonial-card__text">
+                "Elektrikerr completely rewired our Victorian terraced house. The team was professional, tidy, and finished on time and within budget. The certification paperwork was handled without any hassle. Highly recommended."
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">JM</div>
+                <div>
+                  <p class="testimonial-card__name">James Mitchell</p>
+                  <p class="testimonial-card__role">Homeowner, London</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card animate animate--delay-2">
+              <div class="testimonial-card__stars" aria-label="5 star rating">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonial-card__text">
+                "We had an EV charger installed for our new electric vehicle. The whole process from quote to completion was seamless. The installer was knowledgeable, explained everything clearly, and the work looks immaculate."
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">SC</div>
+                <div>
+                  <p class="testimonial-card__name">Sarah Collins</p>
+                  <p class="testimonial-card__role">Property Owner, Manchester</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card animate animate--delay-3">
+              <div class="testimonial-card__stars" aria-label="5 star rating">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <p class="testimonial-card__text">
+                "As a facilities manager, I need contractors I can rely on. Elektrikerr has handled our office maintenance contract for three years. Their team is consistently professional and their reporting is thorough and on time."
+              </p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">RP</div>
+                <div>
+                  <p class="testimonial-card__name">Robert Palmer</p>
+                  <p class="testimonial-card__role">Facilities Manager, Birmingham</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────────────────────────────────────
+           CONTACT
+      ──────────────────────────────────────────────────────────── -->
+      <section id="contact" class="section" aria-labelledby="contact-heading">
+        <div class="container">
+          <header class="section__header animate">
+            <p class="section__eyebrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.4 2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.09 6.09l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              Get in Touch
+            </p>
+            <h2 id="contact-heading" class="section__title">Request a Free Quote</h2>
+            <p class="section__subtitle">
+              Tell us about your project and we will get back to you within one business day with a no-obligation quote.
+            </p>
+          </header>
+
+          <div class="contact__grid">
+            <!-- Contact Info -->
+            <aside class="contact__info animate">
+              <div>
+                <h3 class="contact__info-title">Contact Details</h3>
+                <p class="contact__info-desc">
+                  Whether you have a planned project or an urgent electrical issue, our team is ready to help. Get in touch using any of the methods below.
+                </p>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.4 2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.09 6.09l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-detail__label">Phone</p>
+                  <p class="contact-detail__value"><a href="tel:+441234567890">+44 (0) 1234 567 890</a></p>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-detail__label">Email</p>
+                  <p class="contact-detail__value"><a href="mailto:info@elektrikerr.com">info@elektrikerr.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-detail__label">Working Hours</p>
+                  <p class="contact-detail__value">Mon – Fri: 7:30am – 6:00pm</p>
+                  <p class="contact-detail__value" style="margin-top: 2px;">24/7 Emergency Call-out</p>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-detail__label">Service Area</p>
+                  <p class="contact-detail__value">Greater London &amp; Surrounding Counties</p>
+                </div>
+              </div>
+            </aside>
+
+            <!-- Form -->
+            <div class="contact__form-card animate animate--delay-2">
+              <div id="form-success" class="form-success" role="alert">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                Thank you! Your message has been received. We will be in touch shortly.
+              </div>
+
+              <form id="contact-form" novalidate aria-label="Contact form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Full Name <span aria-label="required">*</span></label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-input"
+                      placeholder="John Smith"
+                      autocomplete="name"
+                      aria-required="true"
+                      aria-describedby="name-error"
+                    />
+                    <span id="name-error" class="form-error" role="alert"></span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email Address <span aria-label="required">*</span></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-input"
+                      placeholder="john@example.com"
+                      autocomplete="email"
+                      aria-required="true"
+                      aria-describedby="email-error"
+                    />
+                    <span id="email-error" class="form-error" role="alert"></span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      class="form-input"
+                      placeholder="+44 7700 900000"
+                      autocomplete="tel"
+                      aria-describedby="phone-error"
+                    />
+                    <span id="phone-error" class="form-error" role="alert"></span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="service">Service Required <span aria-label="required">*</span></label>
+                    <select
+                      id="service"
+                      name="service"
+                      class="form-select"
+                      aria-required="true"
+                      aria-describedby="service-error"
+                    >
+                      <option value="">Select a service</option>
+                      <option value="installations">Electrical Installations</option>
+                      <option value="repairs">Fault Finding &amp; Repairs</option>
+                      <option value="smart-home">Smart Home Systems</option>
+                      <option value="lighting">Lighting Solutions</option>
+                      <option value="ev-charger">EV Charger Installation</option>
+                      <option value="maintenance">Planned Maintenance</option>
+                      <option value="other">Other / Not Sure</option>
+                    </select>
+                    <span id="service-error" class="form-error" role="alert"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="message">Message <span aria-label="required">*</span></label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    placeholder="Please describe your project or electrical issue..."
+                    rows="5"
+                    aria-required="true"
+                    aria-describedby="message-error"
+                  ></textarea>
+                  <span id="message-error" class="form-error" role="alert"></span>
+                </div>
+
+                <button type="submit" class="btn btn--primary form-submit">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ─────────────────────────────────────────────────────────
+         FOOTER
+    ──────────────────────────────────────────────────────────── -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__grid">
+          <!-- Brand -->
+          <div>
+            <a href="#" class="navbar__logo" aria-label="Elektrikerr – home">
+              <div class="navbar__logo-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1b2a4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+              </div>
+              <span class="navbar__logo-name">Elektri<span>kerr</span></span>
+            </a>
+            <p class="footer__brand-desc">
+              Professional electrical services for homes and businesses. Licensed, insured, and dedicated to quality workmanship.
+            </p>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <p class="footer__col-title">Services</p>
+            <ul class="footer__links">
+              <li><a href="#services" class="footer__link">Electrical Installations</a></li>
+              <li><a href="#services" class="footer__link">Fault Finding &amp; Repairs</a></li>
+              <li><a href="#services" class="footer__link">Smart Home Systems</a></li>
+              <li><a href="#services" class="footer__link">Lighting Solutions</a></li>
+              <li><a href="#services" class="footer__link">EV Charger Installation</a></li>
+              <li><a href="#services" class="footer__link">Planned Maintenance</a></li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div>
+            <p class="footer__col-title">Company</p>
+            <ul class="footer__links">
+              <li><a href="#about" class="footer__link">About Us</a></li>
+              <li><a href="#why-us" class="footer__link">Why Choose Us</a></li>
+              <li><a href="#testimonials" class="footer__link">Client Reviews</a></li>
+              <li><a href="#contact" class="footer__link">Contact Us</a></li>
+              <li><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <p class="footer__col-title">Contact Us</p>
+            <div class="footer__contact-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.4 2 2 0 0 1 3.61 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6.09 6.09l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span>+44 (0) 1234 567 890</span>
+            </div>
+            <div class="footer__contact-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span>info@elektrikerr.com</span>
+            </div>
+            <div class="footer__contact-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Greater London &amp; Surrounding Counties</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer__bottom">
+          <p class="footer__bottom-text">
+            &copy; <span id="footer-year"></span> Elektrikerr Ltd. All rights reserved. Registered in England &amp; Wales.
+          </p>
+          <nav class="footer__bottom-links" aria-label="Legal links">
+            <a href="privacy.html" class="footer__bottom-link">Privacy Policy</a>
+            <a href="privacy.html#cookies" class="footer__bottom-link">Cookie Policy</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ─────────────────────────────────────────────────────────
+         COOKIE BANNER
+    ──────────────────────────────────────────────────────────── -->
+    <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+      <p class="cookie-banner__text">
+        We use cookies to improve your experience on our website. By continuing to browse, you agree to our
+        <a href="privacy.html#cookies">Cookie Policy</a>.
+      </p>
+      <div class="cookie-banner__actions">
+        <button id="cookie-decline" class="btn btn--outline btn--sm">Decline</button>
+        <button id="cookie-accept" class="btn btn--primary btn--sm">Accept Cookies</button>
+      </div>
+    </div>
+
+    <!-- ─────────────────────────────────────────────────────────
+         BACK TO TOP
+    ──────────────────────────────────────────────────────────── -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+    </button>
+
+    <!-- Set footer year dynamically -->
+    <script>
+      document.getElementById("footer-year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- TypeScript-compiled JavaScript -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

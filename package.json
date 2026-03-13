@@ -1,0 +1,12 @@
+{
+  "name": "elektrikerr",
+  "version": "1.0.0",
+  "description": "Professional electrician company website",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
