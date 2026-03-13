@@ -2,11 +2,11 @@
   "name": "elektrikerr",
   "version": "1.0.0",
   "description": "Professional electrician company website",
- "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "devDependencies": {
     "typescript": "^5.4.5"
   },
